@@ -7,7 +7,7 @@ class UsersSeeder extends Seeder {
     public function run() {
         $this->db->truncate($this->table);
 
-        $limit = 5000;
+        $limit = 500;
         echo "seeding $limit user accounts";
 
         for ($i = 0; $i < $limit; $i++) {
